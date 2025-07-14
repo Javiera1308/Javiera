@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.malla {
+  display: flex;
+  gap: 20px;
+}
+
+.asignatura {
+  background-color: #d3e4f0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+}
+
+.asignatura:hover {
+  background-color: #a8c5de;
+}
+
+#infoAsignatura {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
